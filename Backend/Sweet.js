@@ -1,7 +1,9 @@
 // Backend/Sweet.js
 
+// Backend/Sweet.js
 class Sweet {
-  constructor(name, price) {
+  constructor(id, name, price) {
+    this.id = id;
     this.name = name;
     this.price = price;
   }

@@ -4,11 +4,12 @@ const Sweet = require('./Sweet.js');
 const SweetShop = require('./SweetShop.js');
 
 describe('Sweet', () => {
-  it('should create a sweet with a name and price', () => {
-    const sweet = new Sweet('Jalebi', 150);
-    expect(sweet.name).toBe('Jalebi');
-    expect(sweet.price).toBe(150);
-  });
+  it('should create a sweet with an id, name, and price', () => {
+  const sweet = new Sweet(1, 'Jalebi', 150);
+  expect(sweet.id).toBe(1);
+  expect(sweet.name).toBe('Jalebi');
+  expect(sweet.price).toBe(150);
+});
 });
 
 describe('SweetShop', () => {
