@@ -1,4 +1,4 @@
-// Sweet.js
+// Backend/Sweet.js
 
 class Sweet {
   constructor(name, price) {
